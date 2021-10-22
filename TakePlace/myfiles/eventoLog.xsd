@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="EventoLog">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="nomeApplicazione" type="xs:string"/>
+      <xs:element name="indirizzoIP" type="xs:string"/>
+      <xs:element name="timestamp" type="xs:string"/>
+      <xs:element name="etichettaEvento" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

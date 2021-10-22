@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ParametriConfigurazione>
+  <font>Black Italic</font>
+  <dimensioneFont>1.1</dimensioneFont>
+  <coloreBackground>#FFFFFF</coloreBackground>
+  <colorePulsanti>#0000cc</colorePulsanti>
+  <IPClient>localhost</IPClient>
+  <IPServer>localhost</IPServer>
+  <portaServer>8080</portaServer>
+  <oraInizioPartenza>08:00</oraInizioPartenza>
+  <oraFinePartenza>20:00</oraFinePartenza>
+  <numeroGiorni>5</numeroGiorni>
+  <numeroRigheTabella>3</numeroRigheTabella>
+  <IPDB>127.0.0.1</IPDB>
+  <portaDB>3306</portaDB>
+  <usernameDB>root</usernameDB>
+  <passwordDB></passwordDB>
+  <numeroSecondiAttesa>15</numeroSecondiAttesa>
+  <numeroGiorniMax>5</numeroGiorniMax>
+  <numeroOreMin>2</numeroOreMin>
+  <distanzaMax>2</distanzaMax>
+</ParametriConfigurazione>

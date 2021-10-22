@@ -1,0 +1,102 @@
+.table-view{
+   -fx-background-color: transparent;
+   -fx-border-color: #0000cc;
+   -fx-border-width: 2px;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#101010 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 1.1em;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+    -fx-alignment: CENTER;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #ebf0fa;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; 
+    -fx-text-fill: black;
+    -fx-font-size: 1.1em;
+    -fx-border-color: #0000cc;
+    -fx-table-cell-border-color:#0000cc;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #ffffff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #b3b3cc;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 1.1em;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #0000cc;
+}
+
+.button {
+    -fx-background-color: #0000cc; 
+    -fx-effect: dropshadow(gaussian , rgba(0,0,0,0.75) , 4,0,0,1);
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 1.1em;
+}
+
+.label {
+    -fx-font-weight:bold;
+    -fx-text-fill:#0000cc;
+}
+
+.title {
+    -fx-font-weight:bold;
+    -fx-text-fill:#000000;
+    -fx-font-size: 1.1em;
+    -fx-font-family: Arial;
+}
+
+.text-field {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #0000cc 0%, #0000ff 100%),#ffffff,#ffffff,radial-gradient(center 50% 50%, radius 100%, #ffffff, #ffffff);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-font-size: 1.1em;
+}
+
+.combo-box-base {
+    -fx-background-color: linear-gradient(from 0% 93% to 0% 100%, #0000cc 0%, #0000ff 100%),#ffffff,#ffffff,radial-gradient(center 50% 50%, radius 100%, #ffffff, #ffffff);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-font-size: 1.1em;
+}
+
+.VBox {
+    -fx-background-color: #f0f0f5;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-border-color: #0000cc;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 1.1em;
+    -fx-alignment: center;
+}
+
+.HBox {
+    -fx-alignment: center;
+}

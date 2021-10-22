@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="ParametriConfigurazione">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="font" type="xs:string"/>
+      <xs:element name="dimensioneFont" type="xs:double"/>
+      <xs:element name="coloreBackground" type="xs:string"/>
+      <xs:element name="colorePulsanti" type="xs:string"/>
+      <xs:element name="IPClient" type="xs:string"/>
+      <xs:element name="IPServer" type="xs:string"/>
+      <xs:element name="portaServer" type="xs:integer"/>
+      <xs:element name="oraInizioPartenza" type="xs:string"/>
+      <xs:element name="oraFinePartenza" type="xs:string"/>
+      <xs:element name="numeroGiorni" type="xs:integer"/>
+      <xs:element name="numeroRigheTabella" type="xs:integer"/>
+      <xs:element name="IPDB" type="xs:string"/>
+      <xs:element name="portaDB" type="xs:integer"/>
+      <xs:element name="usernameDB" type="xs:string"/>
+      <xs:element name="passwordDB" type="xs:string"/>
+      <xs:element name="numeroSecondiAttesa" type="xs:integer"/>
+      <xs:element name="numeroGiorniMax" type="xs:integer"/>
+      <xs:element name="numeroOreMin" type="xs:integer"/>
+      <xs:element name="distanzaMax" type="xs:integer"/> 
+   </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
